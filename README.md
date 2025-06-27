@@ -67,7 +67,7 @@ DataSciece_Recuperacao_MeuNome/
 ### Passo 1: Clone o Repositório
 
 ```bash
-git clone https://github.com/[seu-usuario]/DataSciece_Recuperacao_MeuNome.git
+git clone https://github.com/OliveiraADS/Projeto_DataScience_final
 cd DataSciece_Recuperacao_MeuNome
 ```
 
