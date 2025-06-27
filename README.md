@@ -1,14 +1,33 @@
-Análise e Previsão de Preços de Carros Usados 🚗
+# 🚗 Análise e Previsão de Preços de Carros Usados
+
+[![Python](https://img.shields.io/badge/Python-3.8+-blue.svg)](https://www.python.org/)
+[![Jupyter](https://img.shields.io/badge/Jupyter-Notebook-orange.svg)](https://jupyter.org/)
+[![Scikit-learn](https://img.shields.io/badge/Scikit--learn-Machine%20Learning-green.svg)](https://scikit-learn.org/)
+
 Este repositório contém um projeto completo de Data Science, desde a análise exploratória de dados até a criação de um modelo preditivo para prever preços de carros usados no mercado americano.
-Autor: Deyvi Dos Santos Oliveira 
-Data: 27/06/2025
 
-Assista ao Vídeo Explicativo do Projeto: [🔗 INSERIR_LINK_AQUI]
+**Autor:** Deyvid Dos Santos Oliveira
 
-🎯 1. Descrição do Problema
-Uma concessionária de carros usados precisa de uma ferramenta automatizada e precisa para avaliar o preço justo de veículos em seu estoque. O objetivo deste projeto é desenvolver um modelo de Machine Learning capaz de estimar o valor de mercado de carros usados com base em suas características técnicas, históricas e de marca. Uma previsão precisa permite à empresa otimizar a precificação, tornando-a mais competitiva para o cliente e financeiramente vantajosa para o negócio.
-🗂️ 2. Estrutura do Projeto
-📂 DataSciece_Recuperacao_MeuNome/
+**Data:** 27/06/2025  
+**Vídeo Explicativo:** [🔗 INSERIR_LINK_AQUI]
+
+---
+
+## 🎯 Descrição do Problema
+
+Uma concessionária de carros usados precisa de uma ferramenta automatizada e precisa para avaliar o preço justo de veículos em seu estoque. O objetivo deste projeto é desenvolver um modelo de Machine Learning capaz de estimar o valor de mercado de carros usados com base em suas características técnicas, históricas e de marca.
+
+**Benefícios esperados:**
+- Otimização da precificação
+- Maior competitividade para o cliente
+- Vantagem financeira para o negócio
+
+---
+
+## 📁 Estrutura do Projeto
+
+```
+DataSciece_Recuperacao_MeuNome/
 │
 ├── 📂 data/
 │   └── 📄 used_cars.csv
@@ -32,83 +51,132 @@ Uma concessionária de carros usados precisa de uma ferramenta automatizada e pr
 │
 ├── 📜 requirements.txt
 └── 📄 README.md
-🚀 3. Guia de Utilização do Projeto
-Siga os passos abaixo para configurar e executar este projeto em sua máquina local.
-Pré-requisitos:
+```
 
-Python 3.8+ (https://www.python.org/)
-Git
-Jupyter Notebook
+---
 
-Passo 1: Clone o Repositório
-Abra seu terminal e clone este repositório para sua máquina local:
-shgit clone https://github.com/[seu-usuario]/DataSciece_Recuperacao_MeuNome.git
-shcd DataSciece_Recuperacao_MeuNome
-Passo 2: Configure o Ambiente Virtual
-É uma boa prática criar um ambiente virtual para isolar as dependências.
-Criar o ambiente virtual (venv):
-shpython -m venv venv
-Ativar o ambiente virtual:
-No Windows:
-shvenv\Scripts\activate
-No macOS/Linux:
-shsource venv/bin/activate
-Passo 3: Instale as Dependências
-Com o ambiente virtual ativo, instale todas as bibliotecas necessárias:
-shpip install -r requirements.txt
-Passo 4: Execute a Análise
-Para ver todo o processo de análise, limpeza, treinamento e avaliação do modelo:
-Inicie o Jupyter Notebook:
-shjupyter notebook notebooks/Analise_Carros_usados.ipynb
-🛠️ 4. Técnicas e Ferramentas Utilizadas
+## 🚀 Guia de Instalação e Execução
 
-Limpeza e Preparação: Tratamento de valores ausentes, criação de variáveis derivadas (idade do carro) e codificação com Label Encoding
-Análise Exploratória (EDA): Geração de histogramas, boxplots, scatter plots e matriz de correlação com Matplotlib e Seaborn
-Modelagem Preditiva: Treinamento e avaliação de modelo Random Forest Regressor do Scikit-learn
-Ambiente de Desenvolvimento: Análise realizada em Jupyter Notebook com VS Code
-Versionamento: Controle de versão realizado com Git e GitHub
+### Pré-requisitos
 
-📊 5. Resultados e Métricas do Modelo
-O modelo foi avaliado utilizando R² (Coeficiente de Determinação), RMSE (Raiz do Erro Quadrático Médio) e MAE (Erro Médio Absoluto).
-MétricaValorInterpretaçãoR² Score[INSERIR_VALOR]O modelo explica [X]% da variação dos preçosRMSE$[INSERIR_VALOR]Erro médio quadráticoMAE$[INSERIR_VALOR]Erro médio absoluto
-Dataset Utilizado:
+- [Python 3.8+](https://www.python.org/)
+- Git
+- Jupyter Notebook
 
-52 veículos analisados
-27 características por veículo
-Período: 2014 a 2022
-Faixa de preços: $13.590 a $33.777
+### Passo 1: Clone o Repositório
 
-Variáveis Mais Importantes:
+```bash
+git clone https://github.com/[seu-usuario]/DataSciece_Recuperacao_MeuNome.git
+cd DataSciece_Recuperacao_MeuNome
+```
 
-Ano do carro - Maior impacto na determinação do preço
-Quilometragem - Segunda maior influência (correlação negativa)
-Marca - Especialmente Honda vs outras marcas
+### Passo 2: Configure o Ambiente Virtual
 
-💡 6. Principais Descobertas
-A análise exploratória e a modelagem permitiram concluir que:
+```bash
+# Criar o ambiente virtual
+python -m venv venv
 
-Domínio da Honda: A marca Honda representa 44% do dataset (23 de 52 carros), demonstrando forte presença no mercado de usados
-Depreciação por Idade: Existe uma correlação negativa clara entre idade do veículo e seu valor de mercado
-Impacto da Quilometragem: Carros com maior quilometragem apresentam preços significativamente menores
-Carros Híbridos: Veículos híbridos mantêm valor superior comparado aos convencionais a gasolina
-Eficácia do Modelo: O Random Forest mostrou-se uma ferramenta eficaz para previsão de preços, servindo como base sólida para avaliação automatizada de veículos
+# Ativar o ambiente virtual
+# Windows:
+venv\Scripts\activate
 
-🔄 7. Conclusão e Sugestões
-Conclusões:
+# macOS/Linux:
+source venv/bin/activate
+```
 
-O modelo Random Forest apresentou boa capacidade preditiva para estimar preços de carros usados
-Ano de fabricação e quilometragem são os fatores mais determinantes na precificação
-A marca Honda demonstra comportamento diferenciado no mercado, mantendo valor superior
+### Passo 3: Instale as Dependências
 
-Melhorias Futuras:
+```bash
+ip install pandas numpy matplotlib seaborn scikit-learn plotly jupyter
+```
 
-Expandir o dataset com mais veículos e marcas diversificadas
-Incluir variáveis geográficas (localização, mercado regional)
-Testar algoritmos alternativos (XGBoost, Gradient Boosting, Redes Neurais)
-Implementar validação cruzada para melhor avaliação da generalização
-Adicionar dados de mercado (sazonalidade, tendências econômicas)
+### Passo 4: Execute a Análise
+
+```bash
+jupyter notebook notebooks/Analise_Carros_usados.ipynb
+```
+
+---
+
+## 🛠️ Tecnologias e Ferramentas Utilizadas
+
+- **Limpeza e Preparação:** Tratamento de valores ausentes, criação de variáveis derivadas (idade do carro) e codificação com Label Encoding
+- **Análise Exploratória (EDA):** Geração de histogramas, boxplots, scatter plots e matriz de correlação com Matplotlib e Seaborn
+- **Modelagem Preditiva:** Treinamento e avaliação de modelo Random Forest Regressor do Scikit-learn
+- **Ambiente de Desenvolvimento:** Análise realizada em Jupyter Notebook com VS Code
+- **Versionamento:** Controle de versão realizado com Git e GitHub
+
+---
+
+## 📊 Resultados e Métricas do Modelo
+
+### Métricas de Avaliação
+
+| Métrica | Valor | Interpretação |
+|---------|-------|---------------|
+| **R² Score** | 0.8707 | O modelo explica [0.6]% da variação dos preços |
+| **RMSE** | $1,341| Erro médio quadrático |
+| **MAE** | MAE: $1,047 | Erro médio absoluto |
+
+### Características do Dataset
+
+- **52 veículos** analisados
+- **27 características** por veículo
+- **Período:** 2014 a 2022
+- **Faixa de preços:** $13.590 a $33.777
+
+### Variáveis Mais Importantes
+
+1. **Ano do carro** - Maior impacto na determinação do preço
+2. **Quilometragem** - Segunda maior influência (correlação negativa)
+3. **Marca** - Especialmente Honda vs outras marcas
+
+---
+
+## 💡 Principais Descobertas
+
+### Insights da Análise
+
+- **Domínio da Honda:** A marca Honda representa 44% do dataset (23 de 52 carros), demonstrando forte presença no mercado de usados
+- **Depreciação por Idade:** Existe uma correlação negativa clara entre idade do veículo e seu valor de mercado
+- **Impacto da Quilometragem:** Carros com maior quilometragem apresentam preços significativamente menores
+- **Carros Híbridos:** Veículos híbridos mantêm valor superior comparado aos convencionais a gasolina
+- **Eficácia do Modelo:** O Random Forest mostrou-se uma ferramenta eficaz para previsão de preços
+
+---
+
+## 🔄 Conclusões e Próximos Passos
+
+### Conclusões
+
+✅ O modelo Random Forest apresentou boa capacidade preditiva para estimar preços de carros usados  
+✅ Ano de fabricação e quilometragem são os fatores mais determinantes na precificação  
+✅ A marca Honda demonstra comportamento diferenciado no mercado, mantendo valor superior  
+
+### Melhorias Futuras
+
+- [ ] Expandir o dataset com mais veículos e marcas diversificadas
+- [ ] Incluir variáveis geográficas (localização, mercado regional)
+- [ ] Testar algoritmos alternativos (XGBoost, Gradient Boosting, Redes Neurais)
+- [ ] Implementar validação cruzada para melhor avaliação da generalização
+- [ ] Adicionar dados de mercado (sazonalidade, tendências econômicas)
+
+---
+
+## 🤝 Contribuições
+
+Contribuições são bem-vindas! Por favor, abra uma issue ou envie um pull request.
+
+---
+
+## 📚 Contexto Acadêmico
+
+**Disciplina:** Data Science 
+**Instituição:** Senac - PE
 
 
-📊 Tecnologias: Python | Pandas | Scikit-learn | Matplotlib | Seaborn | Jupyter
-🎓 Disciplina: Data Science - Princípios e Técnicas
-🏫 Instituição: [Nome da Instituição]
+---
+
+<div align="center">
+  <strong>Feito com Python</strong>
+</div>
