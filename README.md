@@ -113,9 +113,9 @@ jupyter notebook notebooks/Analise_Carros_usados.ipynb
 
 | Métrica | Valor | Interpretação |
 |---------|-------|---------------|
-| **R² Score** | [INSERIR_VALOR] | O modelo explica [X]% da variação dos preços |
-| **RMSE** | $[INSERIR_VALOR] | Erro médio quadrático |
-| **MAE** | $[INSERIR_VALOR] | Erro médio absoluto |
+| **R² Score** | 0.8707 | O modelo explica [0.6]% da variação dos preços |
+| **RMSE** | $1,341| Erro médio quadrático |
+| **MAE** | MAE: $1,047 | Erro médio absoluto |
 
 ### Características do Dataset
 
@@ -170,17 +170,12 @@ Contribuições são bem-vindas! Por favor, abra uma issue ou envie um pull requ
 
 ## 📚 Contexto Acadêmico
 
-**Disciplina:** Data Science - Princípios e Técnicas  
-**Instituição:** [Nome da Instituição]
+**Disciplina:** Data Science 
+**Instituição:** Senac - PE
 
----
-
-## 📧 Contato
-
-Para dúvidas ou sugestões, entre em contato através de [seu-email@exemplo.com]
 
 ---
 
 <div align="center">
-  <strong>Feito com ❤️ e Python</strong>
+  <strong>Feito com Python</strong>
 </div>
