@@ -10,7 +10,8 @@ Este repositório contém um projeto completo de Data Science, desde a análise 
 **Autor:** Deyvid Oliveira 
 
 **Data:** 27/06/2025  
-**Vídeo Explicativo:** [🔗 INSERIR_LINK_AQUI]
+**Vídeo Explicativo:** https://youtu.be/SCBJDJitKP0
+**Link do Projeto:** https://github.com/OliveiraADS/Projeto_DataScience_final
 
 ---
 
@@ -262,7 +263,7 @@ Este projeto está sob a licença MIT. Veja o arquivo `LICENSE` para mais detalh
 
 
 
-**Link do Projeto:** [https://github.com/seu-usuario/DataSciece_Recuperacao_MeuNome](https://github.com/seu-usuario/DataSciece_Recuperacao_MeuNome)
+
 
 ---
 
