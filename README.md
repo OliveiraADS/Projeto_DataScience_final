@@ -6,7 +6,7 @@
 
 Este repositório contém um projeto completo de Data Science, desde a análise exploratória de dados até a criação de um modelo preditivo para prever preços de carros usados no mercado americano.
 
-**Autor:** [Seu Nome]  
+**Autor:** Deyvid Dos Santos Oliveira
 **Data:** 27/06/2025  
 **Vídeo Explicativo:** [🔗 INSERIR_LINK_AQUI]
 
